@@ -1,0 +1,239 @@
+{
+  "site": {
+    "title": "Tailwind Template",
+    "description": "A reusable base project template using Tailwind CSS v3",
+    "logo": {
+      "src": "/images/logo.svg",
+      "alt": "Tailwind Template Logo"
+    }
+  },
+  "navigation": {
+    "main": [
+      {
+        "text": "Home",
+        "url": "/"
+      },
+      {
+        "text": "About",
+        "url": "/about"
+      },
+      {
+        "text": "Pricing",
+        "url": "/pricing"
+      }
+    ],
+    "footer": [
+      {
+        "title": "Company",
+        "links": [
+          {
+            "text": "About Us",
+            "url": "/about"
+          },
+          {
+            "text": "Contact",
+            "url": "#"
+          },
+          {
+            "text": "Careers",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "text": "Blog",
+            "url": "#"
+          },
+          {
+            "text": "Documentation",
+            "url": "#"
+          },
+          {
+            "text": "Help Center",
+            "url": "#"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "text": "Privacy Policy",
+            "url": "#"
+          },
+          {
+            "text": "Terms of Service",
+            "url": "#"
+          }
+        ]
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "Welcome to Your Tailwind 3",
+        "subtitle": "A clean, customizable starting point for your next project",
+        "cta": {
+          "primary": {
+            "text": "Get Started",
+            "url": "#"
+          },
+          "secondary": {
+            "text": "Learn More",
+            "url": "/about"
+          }
+        },
+        "image": {
+          "src": "https://images.pexels.com/photos/14343605/pexels-photo-14343605.jpeg",
+          "alt": "Hero Image"
+        }
+      },
+      "features": [
+        {
+          "title": "Responsive Design",
+          "description": "Looks great on any device, from mobile to desktop.",
+          "icon": "device-mobile"
+        },
+        {
+          "title": "Dark Mode",
+          "description": "Toggle between light and dark themes with a single click.",
+          "icon": "moon"
+        },
+        {
+          "title": "Customizable",
+          "description": "Easily modify content through a single JSON file.",
+          "icon": "adjustments"
+        }
+      ]
+    },
+    "about": {
+      "hero": {
+        "title": "About Us",
+        "subtitle": "Learn more about our company and mission",
+        "image": {
+          "src": "https://images.pexels.com/photos/725636/pexels-photo-725636.jpeg",
+          "alt": "About Us Image"
+        }
+      },
+      "content": [
+        {
+          "title": "Our Story",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor."
+        },
+        {
+          "title": "Our Mission",
+          "text": "Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+        },
+        {
+          "title": "Our Team",
+          "text": "Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+        }
+      ],
+      "team": [
+        {
+          "name": "Jane Doe",
+          "title": "CEO & Founder",
+          "image": "/images/team-1.jpg"
+        },
+        {
+          "name": "John Smith",
+          "title": "CTO",
+          "image": "/images/team-2.jpg"
+        },
+        {
+          "name": "Emily Johnson",
+          "title": "Design Lead",
+          "image": "/images/team-3.jpg"
+        }
+      ]
+    },
+    "pricing": {
+      "hero": {
+        "title": "Pricing Plans",
+        "subtitle": "Choose the perfect plan for your needs"
+      },
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$9",
+          "period": "per month",
+          "description": "Perfect for small projects",
+          "features": [
+            "1 Project",
+            "5GB Storage",
+            "Basic Support",
+            "1 User"
+          ],
+          "cta": {
+            "text": "Get Started",
+            "url": "#"
+          },
+          "highlighted": false
+        },
+        {
+          "name": "Pro",
+          "price": "$29",
+          "period": "per month",
+          "description": "Great for growing businesses",
+          "features": [
+            "10 Projects",
+            "50GB Storage",
+            "Priority Support",
+            "5 Users"
+          ],
+          "cta": {
+            "text": "Get Started",
+            "url": "#"
+          },
+          "highlighted": true
+        },
+        {
+          "name": "Enterprise",
+          "price": "$99",
+          "period": "per month",
+          "description": "For large organizations",
+          "features": [
+            "Unlimited Projects",
+            "500GB Storage",
+            "24/7 Support",
+            "Unlimited Users"
+          ],
+          "cta": {
+            "text": "Contact Us",
+            "url": "#"
+          },
+          "highlighted": false
+        }
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Tailwind Template. All rights reserved.",
+    "social": [
+      {
+        "name": "Twitter",
+        "url": "#",
+        "icon": "twitter"
+      },
+      {
+        "name": "Facebook",
+        "url": "#",
+        "icon": "facebook"
+      },
+      {
+        "name": "Instagram",
+        "url": "#",
+        "icon": "instagram"
+      },
+      {
+        "name": "GitHub",
+        "url": "#",
+        "icon": "github"
+      }
+    ]
+  }
+}
